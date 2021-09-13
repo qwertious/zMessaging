@@ -4,7 +4,7 @@
     <title>zMessaging</title>
   </head>
   <body>
-    <table>
+    <table id="main">
       <tr>
         <td></td>
         <td></td>
@@ -19,5 +19,10 @@
         <td>Create</td>
       </tr>
     </table>
+    <script>
+      main = document.getElementById("main");
+      main.width = window.innerWidth;
+      main.height = window.innerHeight;
+    </script>
   </body>
 </html>
